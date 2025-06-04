@@ -1,6 +1,0 @@
-# MATLAB FILES
-
-THis directory contains all the files imported into the MATLAB all the slx files and all the xml files along with step files
-
-DOwnload the XML and step files into one directory. and run the below command in the command window it will generate the 3D model according to the MATLAB files.
-The 3D model however developed in Onshape by following some tutorials and used data from publically available resources as well
