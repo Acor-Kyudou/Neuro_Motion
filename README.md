@@ -11,18 +11,18 @@ The model pipeline ![image](https://github.com/user-attachments/assets/d9e1ee16-
 
 The accuracy and loss of the model is calculated using BCE and dataset was splitted into 81% training, 9% testing and 10% of validation after lot of settings the split in between 30-15-15 splitting to 90-5-5 from the dataset, 81% of data is utilized and imaginary files were used while training after training the model. By using the trained models and real files (where subject actually made the movement) used to test the performance as shown below,
 
-##Training Phase
+## Training Phase
 
 ![Model accuracy while training](https://github.com/user-attachments/assets/81cf7e3a-81bf-4ab3-85bb-d1ae361ca8bc) 
 
 ![Classification report](https://github.com/user-attachments/assets/61fdba09-b67a-4d84-b950-2de1b168b7f5)
 ![COnfusion Matrix when training](https://github.com/user-attachments/assets/4e0889e5-71e6-4e2d-804a-fa1b81a6f927) 
 
-##Now the testing phase
+## Now the testing phase
 ![Model testing accuracy per class](https://github.com/user-attachments/assets/a60acdf6-cd3e-44bf-9568-54170c8823b2) 
 ![COnfusion Matrix While testing](https://github.com/user-attachments/assets/e68a9c11-c6b9-466e-934a-df1dba6c1af2) 
 
-##References
+## References
 [Google Deepmind](https://github.com/google-deepmind)
 [PhysioNet Dataset](https://physionet.org/content/eegmmidb/1.0.0/)
 [Electroencephalogram Signal Classification for action identification](https://keras.io/examples/timeseries/eeg_signal_classification/)
