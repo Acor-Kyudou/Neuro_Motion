@@ -1,7 +1,7 @@
 # Neuro_Motion
 
 
-This projects aims for a simulation using a deep learning model developed using multiple architectures combining together to yield the results and combining the model with MATLAB with integration of MuJoCo for simulation
+This projects aims for a simulation using a deep learning model developed using multiple architectures combining together to yield the results and combining the model with MATLAB with integration of MuJoCo for simulation and this was done for final year project of Bachelors in ELEctrical Engineering
 
 EEG (Electroencephalogram) is a Brain signal that displays the brain activity in time series data. EEG can be used to help those who lost the connection with brain and their limbs to attain their daily life through Brain-computer interface (BCI). In order to identify the movements based on signal variation. IN order to do the classification CNN is used to identify the non-stationary signals spatial components and then the tranformer acquires global dependancies within output of CNN and MLP header is then used to classify the identified limb movement turning it into a command for Simulation movement. The model accuracy reached the level of 73% with testing while it reached 84% in training and validation.
 The modele developed and saved in three different file types saving it as lightning checkpoint, pytorch native and onnx formats
@@ -24,8 +24,8 @@ The accuracy and loss of the model is calculated using BCE and dataset was split
 
 ## References
 [Google Deepmind](https://github.com/google-deepmind)<br/>
-[PhysioNet Dataset](https://physionet.org/content/eegmmidb/1.0.0/)
-[Electroencephalogram Signal Classification for action identification](https://keras.io/examples/timeseries/eeg_signal_classification/)
-[Timeseries classification with a Transformer model](https://keras.io/examples/timeseries/timeseries_classification_transformer/)
-[Self-Attention and Positional Encoding](https://d2l.ai/chapter_attention-mechanisms-and-transformers/self-attention-and-positional-encoding.html)
-[EEGformer: A transformer–based brain activity classification method using EEG signal](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1148855/full)
+[PhysioNet Dataset](https://physionet.org/content/eegmmidb/1.0.0/)<br/>
+[Electroencephalogram Signal Classification for action identification](https://keras.io/examples/timeseries/eeg_signal_classification/)<br/>
+[Timeseries classification with a Transformer model](https://keras.io/examples/timeseries/timeseries_classification_transformer/)<br/>
+[Self-Attention and Positional Encoding](https://d2l.ai/chapter_attention-mechanisms-and-transformers/self-attention-and-positional-encoding.html)<br/>
+[EEGformer: A transformer–based brain activity classification method using EEG signal](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1148855/full)<br/>
