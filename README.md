@@ -23,7 +23,7 @@ The accuracy and loss of the model is calculated using BCE and dataset was split
 ![COnfusion Matrix While testing](https://github.com/user-attachments/assets/e68a9c11-c6b9-466e-934a-df1dba6c1af2) 
 
 ## References
-[Google Deepmind](https://github.com/google-deepmind)
+[Google Deepmind](https://github.com/google-deepmind)<br/>
 [PhysioNet Dataset](https://physionet.org/content/eegmmidb/1.0.0/)
 [Electroencephalogram Signal Classification for action identification](https://keras.io/examples/timeseries/eeg_signal_classification/)
 [Timeseries classification with a Transformer model](https://keras.io/examples/timeseries/timeseries_classification_transformer/)
