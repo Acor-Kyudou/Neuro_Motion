@@ -13,7 +13,7 @@ The accuracy and loss of the model is calculated using BCE and dataset was split
 
 ## Training Phase
 
-[Model accuracy while training](https://github.com/user-attachments/assets/81cf7e3a-81bf-4ab3-85bb-d1ae361ca8bc) <br/>
+![Model accuracy while training](https://github.com/user-attachments/assets/81cf7e3a-81bf-4ab3-85bb-d1ae361ca8bc) <br/>
 ![Classification report](https://github.com/user-attachments/assets/61fdba09-b67a-4d84-b950-2de1b168b7f5)<br/>
 ![COnfusion Matrix when training](https://github.com/user-attachments/assets/4e0889e5-71e6-4e2d-804a-fa1b81a6f927) 
 
